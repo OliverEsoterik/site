@@ -18,12 +18,12 @@ html {
 
 
 a:link {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ li {
  }
 
  .nav-links a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-shadow: 0;
  }
  .nav-links a:hover {
@@ -86,14 +86,24 @@ body{
 
 .card{
   position: relative; 
-  width: 315px; /* Remove for full width*/
-  height: 450px; /*  Remove for full width */
+  width: 1000px; /* Remove for full width*/
+  height: 800px; /*  Remove for full width */
   margin:30px auto;
   /* box-shadow: 0 0 100px rgba(0,0,0, .3); */
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
   background: white; 
   animation: fadeIn 500ms reverse;
-}
+  overflow-y: auto;
+  }
+
+  .content {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: justify;
+  }
 
 .card-header{
   position: relative;
@@ -135,16 +145,10 @@ body{
   left:0;
 }
 
-.bio {
-  margin-right: 3%;
-  text-align: justify;
-}
-
 .card-body{
   text-align:center;
   padding-left: 10px;
   background-color: white;
-  text-align: justify;
 }
 
 .name{
@@ -153,10 +157,6 @@ body{
   text-transform: uppercase;
   margin: 0 auto;
   background-color: white;
-}
-
-.job-title{
-  text-align: center;
 }
 
 .wrapper {

@@ -18,12 +18,12 @@ html {
 
 
 a:link {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -40,8 +40,13 @@ li {
   color: #fff;
  }
 
+ .bio {
+    margin-right: 3%;
+    text-align: justify;
+  }
+
  .nav-links a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-shadow: 0;
  }
  .nav-links a:hover {
@@ -135,16 +140,14 @@ body{
   left:0;
 }
 
-.bio {
-  margin-right: 3%;
-  text-align: justify;
+.job-title{
+    text-align: center;
 }
 
 .card-body{
   text-align:center;
   padding-left: 10px;
   background-color: white;
-  text-align: justify;
 }
 
 .name{
@@ -153,10 +156,6 @@ body{
   text-transform: uppercase;
   margin: 0 auto;
   background-color: white;
-}
-
-.job-title{
-  text-align: center;
 }
 
 .wrapper {
