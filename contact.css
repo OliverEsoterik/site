@@ -176,7 +176,7 @@ body{
   overflow: hidden;
   color: #fff;
   font-family: 'Exo 2';
-  font-size: 22px;
+  font-size: 20px;
   text-shadow: 0 0 3px #6b707d, 0 0 5px #307c7f;
   animation: fadeIn 500ms reverse;
 }
